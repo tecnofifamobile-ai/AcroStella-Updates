@@ -19,9 +19,9 @@ La fuente ofrece la IPA sin firma. Descárgala desde Flarestore y fírmala con t
 
 ## Actualizar en el iPad desde AcroStella
 
-Desde **0.5.2**, abre **Actualizaciones → Buscar actualizaciones** en AcroStella. Consulta GitHub directamente y descarga la IPA con comprobación de tamaño y SHA-256, sin depender del aviso del catálogo de Flarestore. **Enviar IPA al firmador** abre la hoja de compartir: escoger un firmador compatible o guardar en Archivos e importar en Flarestore. Allí se firma e instala conservando el identificador anterior.
+En la versión actual, abre **Actualizaciones → Buscar actualizaciones** en AcroStella. Consulta GitHub directamente y descarga la IPA con comprobación de tamaño y SHA-256, sin depender del aviso del catálogo de Flarestore. **Enviar IPA al firmador** abre la hoja de compartir: escoger un firmador compatible o guardar en Archivos e importar en Flarestore. Allí se firma e instala conservando el identificador anterior.
 
-Para estrenar este método, importa una vez la IPA 0.5.2 del enlace anterior. Compartir la IPA no confirma su instalación; la versión instalada se comprueba al volver. Las fuentes siguen disponibles y conservan sus identidades. No hace falta crear otra fuente en cada versión.
+Para estrenar este método, importa una vez la IPA actual del enlace anterior. Compartir la IPA no confirma su instalación; la versión instalada se comprueba al volver. Las fuentes siguen disponibles y conservan sus identidades. No hace falta crear otra fuente en cada versión.
 
 ## Dos ángulos en 0.5.2
 
