@@ -1,7 +1,7 @@
 {
   "name": "AcroStella Updates",
   "identifier": "com.acrostella.updates",
-  "subtitle": "Versiones de prueba de AcroStella Analytics",
+  "subtitle": "AcroStella 0.5.2 · build 7",
   "website": "https://github.com/tecnofifamobile-ai/AcroStella-Updates",
   "sourceURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/flarestore.json",
   "iconURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/acrostella-icon.png",
@@ -10,28 +10,36 @@
       "name": "AcroStella Analytics",
       "bundleIdentifier": "com.acrostella.acrostellaAnalytics",
       "developerName": "AcroStella",
-      "subtitle": "Grabación y análisis de ejercicios",
-      "localizedDescription": "Emparejamiento con seis cifras: buscar la cámara en tu red, seleccionar e introducir el código del Android. Códigos temporales con autenticación mutua; IP manual si la búsqueda no funciona. Accesos con texto a Dispositivos, comparación y copias; versión instalada visible. Actualiza ambos dispositivos a 0.5.1 o posterior. Conserva revisión y guardado de ambos ángulos, dibujo y organización. IPA sin firma: firmar en Flarestore conservando el identificador. Sin vista remota en directo ni garantía de cero desfase físico.",
+      "subtitle": "Versión 0.5.2 · build 7",
+      "localizedDescription": "Actualizaciones también dentro de AcroStella para iPad/iOS: aviso de nueva versión, búsqueda manual, notas, descarga de IPA con progreso/cancelación y verificación de tamaño y SHA-256. La consulta usa la publicación de GitHub y un manifiesto fijado a su commit, sin depender de la caché de fuentes de Flarestore. Compartir la IPA permite enviarla al firmador o guardarla en Archivos para importarla. Firmar e instalar sigue siendo una acción del usuario; compartir no se anuncia como instalación completada.\n\nPublicación unificada: las dos fuentes Flarestore y el canal de la app se generan y verifican desde la misma IPA, manteniendo los identificadores. Versión y build visibles en el catálogo; la entrada actual no depende de un filtro de betas.\n\nMantiene el emparejamiento de seis cifras, grabación y revisión de dos ángulos, dibujo y biblioteca. Actualiza ambos dispositivos. Conserva el identificador anterior al firmar para mantener tus datos. Sin uso de certificados Apple del usuario en Cloud. La conexión física iPad/S24 y la hoja de compartir a Flarestore siguen pendientes de prueba en los dispositivos.",
       "iconURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/acrostella-icon.png",
-      "isBeta": true,
       "versions": [
         {
-          "version": "0.5.1",
-          "buildVersion": "6",
-          "date": "2026-10-23T20:57:34Z",
-          "localizedDescription": "Emparejamiento con seis cifras: buscar la cámara en tu red, seleccionar e introducir el código del Android. Códigos temporales con autenticación mutua; IP manual si la búsqueda no funciona. Accesos con texto a Dispositivos, comparación y copias; versión instalada visible. Actualiza ambos dispositivos a 0.5.1 o posterior. Conserva revisión y guardado de ambos ángulos, dibujo y organización. IPA sin firma: firmar en Flarestore conservando el identificador. Sin vista remota en directo ni garantía de cero desfase físico.",
-          "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.1%2B6/acrostella-analytics-0.5.1%2B6-unsigned.ipa",
-          "size": 7877307,
-          "minOSVersion": "15.0",
-          "sha256": "9915383f7edce942dffb638ec94a9eae6509cd37b9180823e86ad8fbbcaf36be"
+          "version": "0.5.2",
+          "buildVersion": "7",
+          "date": "2026-10-23T21:24:24Z",
+          "localizedDescription": "Actualizaciones también dentro de AcroStella para iPad/iOS: aviso de nueva versión, búsqueda manual, notas, descarga de IPA con progreso/cancelación y verificación de tamaño y SHA-256. La consulta usa la publicación de GitHub y un manifiesto fijado a su commit, sin depender de la caché de fuentes de Flarestore. Compartir la IPA permite enviarla al firmador o guardarla en Archivos para importarla. Firmar e instalar sigue siendo una acción del usuario; compartir no se anuncia como instalación completada.\n\nPublicación unificada: las dos fuentes Flarestore y el canal de la app se generan y verifican desde la misma IPA, manteniendo los identificadores. Versión y build visibles en el catálogo; la entrada actual no depende de un filtro de betas.\n\nMantiene el emparejamiento de seis cifras, grabación y revisión de dos ángulos, dibujo y biblioteca. Actualiza ambos dispositivos. Conserva el identificador anterior al firmar para mantener tus datos. Sin uso de certificados Apple del usuario en Cloud. La conexión física iPad/S24 y la hoja de compartir a Flarestore siguen pendientes de prueba en los dispositivos.",
+          "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.2%2B7/acrostella-analytics-0.5.2%2B7-unsigned.ipa",
+          "size": 8020526,
+          "sha256": "be5fbe0aa80c4cb38a2b60f05665b3f89f1cdf495d9f46a8232423f88103af2a",
+          "minOSVersion": "15.0"
         }
       ],
-      "version": "0.5.1",
-      "versionDate": "2026-10-23T20:57:34Z",
-      "versionDescription": "Emparejamiento con seis cifras: buscar la cámara en tu red, seleccionar e introducir el código del Android. Códigos temporales con autenticación mutua; IP manual si la búsqueda no funciona. Accesos con texto a Dispositivos, comparación y copias; versión instalada visible. Actualiza ambos dispositivos a 0.5.1 o posterior. Conserva revisión y guardado de ambos ángulos, dibujo y organización. IPA sin firma: firmar en Flarestore conservando el identificador. Sin vista remota en directo ni garantía de cero desfase físico.",
-      "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.1%2B6/acrostella-analytics-0.5.1%2B6-unsigned.ipa",
-      "size": 7877307
+      "version": "0.5.2",
+      "versionDate": "2026-10-23T21:24:24Z",
+      "versionDescription": "Actualizaciones también dentro de AcroStella para iPad/iOS: aviso de nueva versión, búsqueda manual, notas, descarga de IPA con progreso/cancelación y verificación de tamaño y SHA-256. La consulta usa la publicación de GitHub y un manifiesto fijado a su commit, sin depender de la caché de fuentes de Flarestore. Compartir la IPA permite enviarla al firmador o guardarla en Archivos para importarla. Firmar e instalar sigue siendo una acción del usuario; compartir no se anuncia como instalación completada.\n\nPublicación unificada: las dos fuentes Flarestore y el canal de la app se generan y verifican desde la misma IPA, manteniendo los identificadores. Versión y build visibles en el catálogo; la entrada actual no depende de un filtro de betas.\n\nMantiene el emparejamiento de seis cifras, grabación y revisión de dos ángulos, dibujo y biblioteca. Actualiza ambos dispositivos. Conserva el identificador anterior al firmar para mantener tus datos. Sin uso de certificados Apple del usuario en Cloud. La conexión física iPad/S24 y la hoja de compartir a Flarestore siguen pendientes de prueba en los dispositivos.",
+      "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.2%2B7/acrostella-analytics-0.5.2%2B7-unsigned.ipa",
+      "size": 8020526
     }
   ],
-  "news": []
+  "news": [
+    {
+      "identifier": "acrostella-0.5.2-7",
+      "title": "AcroStella 0.5.2 disponible",
+      "caption": "Actualizaciones también dentro de AcroStella para iPad/iOS: aviso de nueva versión, búsqueda manual, notas, descarga de IPA con progreso/cancelación y verificación de tamaño y SHA-256. La consulta usa la publicación de GitHub y un manifiesto fijado a su commit, sin depender de la caché de fuentes de Flarestore. Compartir la IPA permite enviarla al firmador o guardarla en Archivos para importarla. Firmar e instalar sigue siendo una acción del usuario; compartir no se anuncia como instalación completada.\n\nPublicación unificada: las dos fuentes Flarestore y el canal de la app se generan y verifican desde la misma IPA, manteniendo los identificadores. Versión y build visibles en el catálogo; la entrada actual no depende de un filtro de betas.\n\nMantiene el emparejamiento de seis cifras, grabación y revisión de dos ángulos, dibujo y biblioteca. Actualiza ambos dispositivos. Conserva el identificador anterior al firmar para mantener tus datos. Sin uso de certificados Apple del usuario en Cloud. La conexión física iPad/S24 y la hoja de compartir a Flarestore siguen pendientes de prueba en los dispositivos.",
+      "date": "2026-10-23T21:24:24Z",
+      "appID": "com.acrostella.acrostellaAnalytics",
+      "url": "https://github.com/tecnofifamobile-ai/AcroStella-Updates/releases/tag/ios-v0.5.2+7"
+    }
+  ]
 }

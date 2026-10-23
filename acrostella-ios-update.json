@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "platform": "ios",
+  "package": "com.acrostella.acrostellaAnalytics",
+  "version_name": "0.5.2",
+  "version_code": 7,
+  "min_os": "15.0",
+  "bytes": 8020526,
+  "sha256": "be5fbe0aa80c4cb38a2b60f05665b3f89f1cdf495d9f46a8232423f88103af2a",
+  "download_url": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.2%2B7/acrostella-analytics-0.5.2%2B7-unsigned.ipa",
+  "notes": "Actualizaciones también dentro de AcroStella para iPad/iOS: aviso de nueva versión, búsqueda manual, notas, descarga de IPA con progreso/cancelación y verificación de tamaño y SHA-256. La consulta usa la publicación de GitHub y un manifiesto fijado a su commit, sin depender de la caché de fuentes de Flarestore. Compartir la IPA permite enviarla al firmador o guardarla en Archivos para importarla. Firmar e instalar sigue siendo una acción del usuario; compartir no se anuncia como instalación completada.\n\nPublicación unificada: las dos fuentes Flarestore y el canal de la app se generan y verifican desde la misma IPA, manteniendo los identificadores. Versión y build visibles en el catálogo; la entrada actual no depende de un filtro de betas.\n\nMantiene el emparejamiento de seis cifras, grabación y revisión de dos ángulos, dibujo y biblioteca. Actualiza ambos dispositivos. Conserva el identificador anterior al firmar para mantener tus datos. Sin uso de certificados Apple del usuario en Cloud. La conexión física iPad/S24 y la hoja de compartir a Flarestore siguen pendientes de prueba en los dispositivos."
+}
