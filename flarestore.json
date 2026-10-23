@@ -1,0 +1,37 @@
+{
+  "name": "AcroStella Updates",
+  "identifier": "com.acrostella.updates",
+  "subtitle": "Versiones de prueba de AcroStella Analytics",
+  "website": "https://github.com/tecnofifamobile-ai/AcroStella-Updates",
+  "sourceURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/flarestore.json",
+  "iconURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/acrostella-icon.png",
+  "apps": [
+    {
+      "name": "AcroStella Analytics",
+      "bundleIdentifier": "com.acrostella.acrostellaAnalytics",
+      "developerName": "AcroStella",
+      "subtitle": "Grabación y análisis de ejercicios",
+      "localizedDescription": "Graba ejercicios y revisa el vídeo al terminar. Guarda o elimina cada intento, organiza tu biblioteca local y utiliza dibujo libre, líneas, ángulos, flechas, rectángulos y elipses. Incluye notas, favoritos, momentos y repetición A–B. Versión de pruebas para iPad y iPhone, sin firma: firmar con tu certificado y perfil en Flarestore antes de instalar.",
+      "iconURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/acrostella-icon.png",
+      "isBeta": true,
+      "versions": [
+        {
+          "version": "0.4.0",
+          "buildVersion": "4",
+          "date": "2026-10-23T00:00:00Z",
+          "localizedDescription": "Primera IPA de pruebas: grabación de ejercicios, revisión inmediata, biblioteca local y seis herramientas de dibujo. Paquete sin firma; requiere certificado y perfil válidos.",
+          "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.4.0%2B4/acrostella-analytics-0.4.0%2B4-unsigned.ipa",
+          "size": 7418498,
+          "minOSVersion": "15.0",
+          "sha256": "93806548c272aa2d67d3a19ce99b97f43654d935b24b9649abbf0c3349240576"
+        }
+      ],
+      "version": "0.4.0",
+      "versionDate": "2026-10-23T00:00:00Z",
+      "versionDescription": "Primera IPA de pruebas: grabación de ejercicios, revisión inmediata, biblioteca local y seis herramientas de dibujo. Paquete sin firma; requiere certificado y perfil válidos.",
+      "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.4.0%2B4/acrostella-analytics-0.4.0%2B4-unsigned.ipa",
+      "size": 7418498
+    }
+  ],
+  "news": []
+}
