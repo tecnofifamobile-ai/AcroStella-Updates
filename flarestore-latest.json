@@ -1,0 +1,37 @@
+{
+  "name": "AcroStella Updates · Actual",
+  "identifier": "com.acrostella.updates.latest",
+  "subtitle": "Versiones de prueba de AcroStella Analytics",
+  "website": "https://github.com/tecnofifamobile-ai/AcroStella-Updates",
+  "sourceURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/flarestore-latest.json",
+  "iconURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/acrostella-icon.png",
+  "apps": [
+    {
+      "name": "AcroStella Analytics",
+      "bundleIdentifier": "com.acrostella.acrostellaAnalytics",
+      "developerName": "AcroStella",
+      "subtitle": "Grabación y análisis de ejercicios",
+      "localizedDescription": "AcroStella Analytics: estudio de entrenamiento con grabación y revisión inmediata, dibujo por ángulo, zoom, cámara lenta, sesiones, etiquetas, comparación de intentos y copias exportables de biblioteca. Conecta Android e iPad en tu red local para grabar y transferir ambos ángulos al terminar; revisa con un cursor y velocidad comunes y ajuste visual de alineación. Sin nube ni cuentas. Mantén ambas apps abiertas; vista remota en directo y captura continua todavía pendientes. Paquete de pruebas sin firma para firmar en Flarestore con tu certificado y perfil.",
+      "iconURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/acrostella-icon.png",
+      "isBeta": true,
+      "versions": [
+        {
+          "version": "0.5.0",
+          "buildVersion": "5",
+          "date": "2026-10-23T20:10:03Z",
+          "localizedDescription": "Estudio con zoom, revisión sin controles, sesiones, etiquetas, comparación y copias de biblioteca. Conexión cifrada Android–iPad, grabación coordinada, transferencia al finalizar y revisión/guardado de dos ángulos. Alineación manual y controles comunes; sin garantía de cero desfase ni vista remota en directo. Actualizar ambos dispositivos. IPA sin firma: firmar con tu certificado y perfil.",
+          "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.0%2B5/acrostella-analytics-0.5.0%2B5-unsigned.ipa",
+          "size": 7756088,
+          "minOSVersion": "15.0",
+          "sha256": "f6c8ac8b2a28b0ac40cfd1b7d4dba0e16528821b9d13e242e63a9b80c105560b"
+        }
+      ],
+      "version": "0.5.0",
+      "versionDate": "2026-10-23T20:10:03Z",
+      "versionDescription": "Estudio con zoom, revisión sin controles, sesiones, etiquetas, comparación y copias de biblioteca. Conexión cifrada Android–iPad, grabación coordinada, transferencia al finalizar y revisión/guardado de dos ángulos. Alineación manual y controles comunes; sin garantía de cero desfase ni vista remota en directo. Actualizar ambos dispositivos. IPA sin firma: firmar con tu certificado y perfil.",
+      "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.0%2B5/acrostella-analytics-0.5.0%2B5-unsigned.ipa",
+      "size": 7756088
+    }
+  ],
+  "news": []
+}

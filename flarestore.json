@@ -24,16 +24,6 @@
           "size": 7756088,
           "minOSVersion": "15.0",
           "sha256": "f6c8ac8b2a28b0ac40cfd1b7d4dba0e16528821b9d13e242e63a9b80c105560b"
-        },
-        {
-          "version": "0.4.0",
-          "buildVersion": "4",
-          "date": "2026-10-23T00:00:00Z",
-          "localizedDescription": "Primera IPA de pruebas: grabación de ejercicios, revisión inmediata, biblioteca local y seis herramientas de dibujo. Paquete sin firma; requiere certificado y perfil válidos.",
-          "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.4.0%2B4/acrostella-analytics-0.4.0%2B4-unsigned.ipa",
-          "size": 7418498,
-          "minOSVersion": "15.0",
-          "sha256": "93806548c272aa2d67d3a19ce99b97f43654d935b24b9649abbf0c3349240576"
         }
       ],
       "version": "0.5.0",

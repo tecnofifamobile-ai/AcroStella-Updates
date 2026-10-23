@@ -22,3 +22,13 @@ La fuente ofrece la IPA sin firma. Descárgala desde Flarestore y fírmala con t
 Actualizar ambos dispositivos. Conectarlos a la misma Wi-Fi o al hotspot del Android. En Android: Dispositivos → Usar como segunda cámara. En el iPad: introducir el enlace de emparejamiento y conectar; autorizar red local y cámara. Iniciar y terminar desde el iPad, esperar la transferencia y revisar/guardar ambos ángulos juntos. Mantener ambas apps abiertas y las pantallas desbloqueadas.
 
 La transferencia de vídeo está cifrada y se comprueba antes de adjuntar el archivo. Los vídeos no se suben a GitHub ni a una nube. Comprobar una palmada o movimiento común y corregir la alineación si hace falta; cero desfase físico no está garantizado. Esta entrega transfiere al finalizar y no ofrece vista remota en directo ni captura continua. La copia del Android se conserva hasta eliminarla desde su biblioteca.
+
+## Si Flarestore sigue mostrando 0.4.0
+
+La fuente principal contiene únicamente la versión actual para evitar selecciones de una entrada antigua del historial. Si el cliente conserva 0.4.0, elimina únicamente la fuente anterior de su lista de Fuentes y añade esta URL de compatibilidad, con identidad y dirección nuevas:
+
+```text
+https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/flarestore-latest.json
+```
+
+Debe ofrecer 0.5.0, build 5. No desinstales AcroStella; descarga y firma manteniendo el identificador de la instalación anterior. Las IPA antiguas siguen disponibles en sus Releases. En futuras publicaciones se actualizan `flarestore.json` y `flarestore-latest.json` a la misma versión actual, manteniendo sus identidades y direcciones propias.
