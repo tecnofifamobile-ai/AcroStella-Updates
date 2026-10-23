@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package": "com.acrostella.acrostella_analytics",
-  "version_code": 4,
-  "version_name": "0.4.0",
+  "version_code": 5,
+  "version_name": "0.5.0",
   "min_sdk": 24,
-  "bytes": 55332651,
-  "sha256": "5c6eb8f0fe2a8da0348dfe4f9e9960aef647459e79690693f532d74eac5e2317",
-  "apk_asset": "acrostella-analytics-0.4.0+4.apk",
-  "notes": "Nuevo flujo: Iniciar ejercicio, Terminar ejercicio y revisión automática del vídeo, sin pasar por una lista. Guarda, elimina o empieza otro ejercicio desde la revisión.\n\nBiblioteca local persistente: nombre opcional, fecha automática, notas del entrenador, favoritos y búsqueda por nombre/notas. Los ejercicios guardados no se borran al grabar nuevos. Se recuperan los clips anteriores que todavía estén en caché.\n\nSeis herramientas: dibujo libre, línea, ángulo, flecha, rectángulo y elipse. Colores, grosores, duración de 1/3/5 segundos o hasta el final, deshacer/rehacer, ocultar y borrar dibujos visibles. Vídeo original intacto.\n\nRepetición A–B, momentos marcados con salto directo, cámara lenta y saltos de un segundo. Vista principal centrada en la cámara y editor adaptable a móvil/tablet y giro.\n\nLímites actuales: hasta 3 minutos por ejercicio, 256 MiB por vídeo finalizado; 3 pendientes/512 MiB y biblioteca de 200 guardados/2 GiB. Los guardados siguen en este dispositivo; desinstalar o borrar datos los elimina. Nube opcional, multicámara y body tracking quedan para futuras entregas. Los controles de cámara y lápiz requieren validación física.",
+  "bytes": 57006589,
+  "sha256": "19cc079dd28d14761048d8e1777daa863244169f1488dc25f3739b973af61d57",
+  "apk_asset": "acrostella-analytics-0.5.0+5.apk",
+  "notes": "Estudio de entrenamiento con revisión ampliable, zoom y modo sin controles.\nOrganiza ejercicios por sesiones y etiquetas; compara dos intentos y exporta/importa copias de tu biblioteca.\nConecta Android y iPad en la misma red: grabación coordinada y transferencia cifrada al terminar para revisar y guardar los dos ángulos juntos.\nControles comunes de reproducción y ajuste manual de alineación. El reloj de control no garantiza cero desfase; comprueba un movimiento visible en ambos vídeos.\nMantén ambas aplicaciones abiertas durante grabación y transferencia. Vista remota en directo y captura continua todavía pendientes. Versión de pruebas: validar el flujo en los dispositivos reales.",
   "signer_sha256": "dfbc2a66221d8b63f7d473fac2e1b80ae7b6a968c2f16f757994f97b16936d3f"
 }
