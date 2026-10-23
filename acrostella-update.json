@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package": "com.acrostella.acrostella_analytics",
-  "version_code": 5,
-  "version_name": "0.5.0",
+  "version_code": 6,
+  "version_name": "0.5.1",
   "min_sdk": 24,
-  "bytes": 57006589,
-  "sha256": "19cc079dd28d14761048d8e1777daa863244169f1488dc25f3739b973af61d57",
-  "apk_asset": "acrostella-analytics-0.5.0+5.apk",
-  "notes": "Estudio de entrenamiento con revisión ampliable, zoom y modo sin controles.\nOrganiza ejercicios por sesiones y etiquetas; compara dos intentos y exporta/importa copias de tu biblioteca.\nConecta Android y iPad en la misma red: grabación coordinada y transferencia cifrada al terminar para revisar y guardar los dos ángulos juntos.\nControles comunes de reproducción y ajuste manual de alineación. El reloj de control no garantiza cero desfase; comprueba un movimiento visible en ambos vídeos.\nMantén ambas aplicaciones abiertas durante grabación y transferencia. Vista remota en directo y captura continua todavía pendientes. Versión de pruebas: validar el flujo en los dispositivos reales.",
+  "bytes": 57615033,
+  "sha256": "ea0cdc729556bd61a602a8bed433ef60c0adeba36315fc0bb687d1df3e21777a",
+  "apk_asset": "acrostella-analytics-0.5.1+6.apk",
+  "notes": "Emparejar Android e iPad es más sencillo: busca la cámara en tu red e introduce un código numérico de seis cifras, sin copiar enlaces largos. El código conserva ceros iniciales, caduca a los cinco minutos y se puede regenerar. Autenticación mutua con SRP y transferencia cifrada. Conexión manual por IP si tu red no permite la búsqueda automática.\n\nAccesos visibles a Dispositivos, Comparar intentos y Copias de seguridad; versión instalada en el estudio y mensajes de conexión más útiles. Conserva la grabación coordinada, transferencia al terminar, revisión y guardado conjunto de los dos ángulos, zoom, dibujo y organización de 0.5.0.\n\nActualiza ambos dispositivos a 0.5.1 o posterior. Misma Wi-Fi/hotspot, apps abiertas y permiso de red local en el iPad. Mantén el identificador de aplicación al actualizar para conservar tu biblioteca.\n\nNo hay vista remota en directo ni garantía de cero desfase físico. Pruebas automáticas con cámaras sintéticas y TCP real local; la combinación iPad/S24 y hotspot necesita comprobación en los dispositivos.",
   "signer_sha256": "dfbc2a66221d8b63f7d473fac2e1b80ae7b6a968c2f16f757994f97b16936d3f"
 }
