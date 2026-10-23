@@ -17,6 +17,12 @@ https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/fla
 
 La fuente ofrece la IPA sin firma. Descárgala desde Flarestore y fírmala con tu certificado y perfil antes de instalar. El usuario ha confirmado la instalación de 0.4.0 en iOS. La versión 0.5.2 y el flujo con dos cámaras necesitan su propia prueba física. La URL de la fuente se mantiene para futuras versiones; cada IPA apunta a una etiqueta fija.
 
+## Actualizar en el iPad desde AcroStella
+
+Desde **0.5.2**, abre **Actualizaciones → Buscar actualizaciones** en AcroStella. Consulta GitHub directamente y descarga la IPA con comprobación de tamaño y SHA-256, sin depender del aviso del catálogo de Flarestore. **Enviar IPA al firmador** abre la hoja de compartir: escoger un firmador compatible o guardar en Archivos e importar en Flarestore. Allí se firma e instala conservando el identificador anterior.
+
+Para estrenar este método, importa una vez la IPA 0.5.2 del enlace anterior. Compartir la IPA no confirma su instalación; la versión instalada se comprueba al volver. Las fuentes siguen disponibles y conservan sus identidades. No hace falta crear otra fuente en cada versión.
+
 ## Dos ángulos en 0.5.2
 
 Actualizar ambos dispositivos. Conectarlos a la misma Wi-Fi o al hotspot del Android. En Android: Dispositivos → Usar como segunda cámara. En el iPad: pulsar Buscar cámaras, elegir el Android e introducir sus seis cifras; si no aparece, usar Conexión manual por IP; autorizar red local y cámara. Iniciar y terminar desde el iPad, esperar la transferencia y revisar/guardar ambos ángulos juntos. Mantener ambas apps abiertas y las pantallas desbloqueadas.
