@@ -2,39 +2,39 @@
 
 Instaladores Android y paquetes iOS para firma. El código fuente y los vídeos permanecen privados.
 
-- **Android:** descarga el APK en la [última versión estable](https://github.com/tecnofifamobile-ai/AcroStella-Updates/releases/latest). Desde 0.3.0 las actualizaciones se ofrecen dentro de la app.
-- **iPad/iPhone:** [IPA 0.6.0 sin firma](https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.6.0%2B8/acrostella-analytics-0.6.0%2B8-unsigned.ipa). Importar en Flarestore y firmar con certificado/perfil válidos antes de instalar. Las versiones iOS figuran como prereleases para mantener separado el canal Android.
+- **Android:** [APK 0.6.0](https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/v0.6.0%2B8/acrostella-analytics-0.6.0%2B8.apk), también en la [última versión estable](https://github.com/tecnofifamobile-ai/AcroStella-Updates/releases/latest).
+- **iPad/iPhone:** [IPA 0.6.0 sin firma](https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.6.0%2B8/acrostella-analytics-0.6.0%2B8-unsigned.ipa). Importar y firmar en Flarestore con el certificado/perfil del usuario, conservando el identificador de su instalación. Las versiones iOS son prereleases para mantener separado el canal Android.
 
-La IPA sin firma no se instala directamente desde Safari. Certificado, perfil y funcionamiento físico requieren validación en el dispositivo.
+## Actualizar dentro de AcroStella
 
-## Fuente para Flarestore
+**Actualizaciones → Buscar actualizaciones** descarga el paquete desde GitHub y verifica tamaño y SHA-256. Android vuelve a comprobar identidad y firmante antes de abrir el instalador del sistema. En iPad, **Enviar IPA al firmador** abre la hoja de compartir; también se puede guardar en Archivos e importar en Flarestore. Allí se firma e instala. Compartir no significa que se haya instalado: la app consulta la versión al regresar.
 
-Añade esta URL como source (formato AltStore):
+No desinstalar para actualizar: borrar la aplicación puede eliminar su biblioteca. La IPA sin firma no se instala directamente desde Safari. No se publican certificados ni se firma iOS en el servidor.
+
+## Fuentes para Flarestore
+
+Fuente principal, formato AltStore:
 
 ```text
 https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/flarestore.json
 ```
 
-La fuente ofrece la IPA sin firma. Descárgala desde Flarestore y fírmala con tu certificado y perfil antes de instalar. El usuario ha confirmado la instalación de 0.4.0 en iOS. La versión 0.6.0 y el flujo con dos cámaras necesitan su propia prueba física. La URL de la fuente se mantiene para futuras versiones; cada IPA apunta a una etiqueta fija.
-
-## Actualizar en el iPad desde AcroStella
-
-En la versión actual, abre **Actualizaciones → Buscar actualizaciones** en AcroStella. Consulta GitHub directamente y descarga la IPA con comprobación de tamaño y SHA-256, sin depender del aviso del catálogo de Flarestore. **Enviar IPA al firmador** abre la hoja de compartir: escoger un firmador compatible o guardar en Archivos e importar en Flarestore. Allí se firma e instala conservando el identificador anterior.
-
-Para estrenar este método, importa una vez la IPA actual del enlace anterior. Compartir la IPA no confirma su instalación; la versión instalada se comprueba al volver. Las fuentes siguen disponibles y conservan sus identidades. No hace falta crear otra fuente en cada versión.
-
-## Dos ángulos en 0.6.0
-
-Actualizar ambos dispositivos. Conectarlos a la misma Wi-Fi o al hotspot del Android. En Android: Dispositivos → Usar como segunda cámara. En el iPad: pulsar Buscar cámaras, elegir el Android e introducir sus seis cifras; si no aparece, usar Conexión manual por IP; autorizar red local y cámara. Iniciar y terminar desde el iPad, esperar la transferencia y revisar/guardar ambos ángulos juntos. Mantener ambas apps abiertas y las pantallas desbloqueadas.
-
-La transferencia de vídeo está cifrada y se comprueba antes de adjuntar el archivo. Los vídeos no se suben a GitHub ni a una nube. Comprobar una palmada o movimiento común y corregir la alineación si hace falta; cero desfase físico no está garantizado. Esta entrega transfiere al finalizar y no ofrece vista remota en directo ni captura continua. La copia del Android se conserva hasta eliminarla desde su biblioteca.
-
-## Si Flarestore sigue mostrando 0.4.0
-
-La fuente principal contiene únicamente la versión actual para evitar selecciones de una entrada antigua del historial. Si el cliente conserva 0.4.0, elimina únicamente la fuente anterior de su lista de Fuentes y añade esta URL de compatibilidad, con identidad y dirección nuevas:
+Fuente de compatibilidad ya existente:
 
 ```text
 https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/flarestore-latest.json
 ```
 
-Debe ofrecer 0.6.0, build 8. No desinstales AcroStella; descarga y firma manteniendo el identificador de la instalación anterior. Las IPA antiguas siguen disponibles en sus Releases. En futuras publicaciones se actualizan `flarestore.json` y `flarestore-latest.json` a la misma versión actual, manteniendo sus identidades y direcciones propias.
+Ambas ofrecen únicamente 0.6.0, build 8, y mantienen sus identidades y direcciones para futuras publicaciones. No hace falta crear una fuente nueva en cada versión. Si el catálogo del firmador conserva una versión antigua, AcroStella consulta GitHub directamente desde Actualizaciones; se puede importar manualmente la IPA del enlace anterior. Los paquetes antiguos siguen disponibles en sus Releases.
+
+## Dos cámaras, conexión recordada y revisión conjunta
+
+Actualizar ambos dispositivos a 0.6.0: el protocolo anterior no es compatible. Conectar el iPad y el Android a la misma Wi-Fi o al hotspot del Android y autorizar cámara/red local. En Android: **Dispositivos → Usar como segunda cámara**. En el iPad: **Buscar cámaras → tocar la cámara → Conectar y recordar** con las seis cifras. Después se recuerda la confianza y se reconecta al regresar a la app; la conexión manual por IP sigue disponible si no funciona el descubrimiento.
+
+El iPad muestra ambas cámaras en directo a partes iguales. **Iniciar · dos ángulos → Revisar** coordina los archivos y reúne el segundo original para revisión/guardado comunes. Los vídeos terminados, su correlación de tiempos y los acuses pendientes se conservan para recuperarlos tras cortes. La copia del Android permanece hasta eliminarla desde su biblioteca.
+
+El directo tiene latencia; la revisión usa los originales y la alineación inicial del primer frame aceptado por el grabador nativo, con ajuste visual manual. Comprobar una palmada o movimiento común: cero desfase físico no está garantizado. El sistema puede suspender la cámara al abandonar o bloquear la app; se conserva la confianza, pero no se graba en segundo plano. No hay todavía búfer circular/replay comprimido continuo.
+
+Estudio adaptado a móvil/tablet y Liquid Glass nativo en iOS 26+; material alternativo en sistemas anteriores y renderer Flutter en Android compatible. La pantalla evita apagarse con cámara activa en primer plano. Sin cuentas, nube ni body tracking. Los vídeos no se suben a GitHub.
+
+La compilación y las pruebas con cámaras sintéticas no sustituyen validar directo, orientación, hotspot, calor y alineación en el iPad y el Android. La instalación de esta versión debe comprobarse en el dispositivo.
