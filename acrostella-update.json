@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package": "com.acrostella.acrostella_analytics",
-  "version_code": 6,
-  "version_name": "0.5.1",
+  "version_code": 7,
+  "version_name": "0.5.2",
   "min_sdk": 24,
-  "bytes": 57615033,
-  "sha256": "ea0cdc729556bd61a602a8bed433ef60c0adeba36315fc0bb687d1df3e21777a",
-  "apk_asset": "acrostella-analytics-0.5.1+6.apk",
-  "notes": "Emparejar Android e iPad es más sencillo: busca la cámara en tu red e introduce un código numérico de seis cifras, sin copiar enlaces largos. El código conserva ceros iniciales, caduca a los cinco minutos y se puede regenerar. Autenticación mutua con SRP y transferencia cifrada. Conexión manual por IP si tu red no permite la búsqueda automática.\n\nAccesos visibles a Dispositivos, Comparar intentos y Copias de seguridad; versión instalada en el estudio y mensajes de conexión más útiles. Conserva la grabación coordinada, transferencia al terminar, revisión y guardado conjunto de los dos ángulos, zoom, dibujo y organización de 0.5.0.\n\nActualiza ambos dispositivos a 0.5.1 o posterior. Misma Wi-Fi/hotspot, apps abiertas y permiso de red local en el iPad. Mantén el identificador de aplicación al actualizar para conservar tu biblioteca.\n\nNo hay vista remota en directo ni garantía de cero desfase físico. Pruebas automáticas con cámaras sintéticas y TCP real local; la combinación iPad/S24 y hotspot necesita comprobación en los dispositivos.",
+  "bytes": 57631417,
+  "sha256": "5034dd9cbd91f3604b40ab48631669de9c0b80cfad3db941d86cddc925da0da5",
+  "apk_asset": "acrostella-analytics-0.5.2+7.apk",
+  "notes": "Actualizaciones también dentro de AcroStella para iPad/iOS: aviso de nueva versión, búsqueda manual, notas, descarga de IPA con progreso/cancelación y verificación de tamaño y SHA-256. La consulta usa la publicación de GitHub y un manifiesto fijado a su commit, sin depender de la caché de fuentes de Flarestore. Compartir la IPA permite enviarla al firmador o guardarla en Archivos para importarla. Firmar e instalar sigue siendo una acción del usuario; compartir no se anuncia como instalación completada.\n\nPublicación unificada: las dos fuentes Flarestore y el canal de la app se generan y verifican desde la misma IPA, manteniendo los identificadores. Versión y build visibles en el catálogo; la entrada actual no depende de un filtro de betas.\n\nMantiene el emparejamiento de seis cifras, grabación y revisión de dos ángulos, dibujo y biblioteca. Actualiza ambos dispositivos. Conserva el identificador anterior al firmar para mantener tus datos. Sin uso de certificados Apple del usuario en Cloud. La conexión física iPad/S24 y la hoja de compartir a Flarestore siguen pendientes de prueba en los dispositivos.",
   "signer_sha256": "dfbc2a66221d8b63f7d473fac2e1b80ae7b6a968c2f16f757994f97b16936d3f"
 }
