@@ -11,26 +11,26 @@
       "bundleIdentifier": "com.acrostella.acrostellaAnalytics",
       "developerName": "AcroStella",
       "subtitle": "Grabación y análisis de ejercicios",
-      "localizedDescription": "AcroStella Analytics: estudio de entrenamiento con grabación y revisión inmediata, dibujo por ángulo, zoom, cámara lenta, sesiones, etiquetas, comparación de intentos y copias exportables de biblioteca. Conecta Android e iPad en tu red local para grabar y transferir ambos ángulos al terminar; revisa con un cursor y velocidad comunes y ajuste visual de alineación. Sin nube ni cuentas. Mantén ambas apps abiertas; vista remota en directo y captura continua todavía pendientes. Paquete de pruebas sin firma para firmar en Flarestore con tu certificado y perfil.",
+      "localizedDescription": "Emparejamiento con seis cifras: buscar la cámara en tu red, seleccionar e introducir el código del Android. Códigos temporales con autenticación mutua; IP manual si la búsqueda no funciona. Accesos con texto a Dispositivos, comparación y copias; versión instalada visible. Actualiza ambos dispositivos a 0.5.1 o posterior. Conserva revisión y guardado de ambos ángulos, dibujo y organización. IPA sin firma: firmar en Flarestore conservando el identificador. Sin vista remota en directo ni garantía de cero desfase físico.",
       "iconURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/main/acrostella-icon.png",
       "isBeta": true,
       "versions": [
         {
-          "version": "0.5.0",
-          "buildVersion": "5",
-          "date": "2026-10-23T20:10:03Z",
-          "localizedDescription": "Estudio con zoom, revisión sin controles, sesiones, etiquetas, comparación y copias de biblioteca. Conexión cifrada Android–iPad, grabación coordinada, transferencia al finalizar y revisión/guardado de dos ángulos. Alineación manual y controles comunes; sin garantía de cero desfase ni vista remota en directo. Actualizar ambos dispositivos. IPA sin firma: firmar con tu certificado y perfil.",
-          "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.0%2B5/acrostella-analytics-0.5.0%2B5-unsigned.ipa",
-          "size": 7756088,
+          "version": "0.5.1",
+          "buildVersion": "6",
+          "date": "2026-10-23T20:57:34Z",
+          "localizedDescription": "Emparejamiento con seis cifras: buscar la cámara en tu red, seleccionar e introducir el código del Android. Códigos temporales con autenticación mutua; IP manual si la búsqueda no funciona. Accesos con texto a Dispositivos, comparación y copias; versión instalada visible. Actualiza ambos dispositivos a 0.5.1 o posterior. Conserva revisión y guardado de ambos ángulos, dibujo y organización. IPA sin firma: firmar en Flarestore conservando el identificador. Sin vista remota en directo ni garantía de cero desfase físico.",
+          "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.1%2B6/acrostella-analytics-0.5.1%2B6-unsigned.ipa",
+          "size": 7877307,
           "minOSVersion": "15.0",
-          "sha256": "f6c8ac8b2a28b0ac40cfd1b7d4dba0e16528821b9d13e242e63a9b80c105560b"
+          "sha256": "9915383f7edce942dffb638ec94a9eae6509cd37b9180823e86ad8fbbcaf36be"
         }
       ],
-      "version": "0.5.0",
-      "versionDate": "2026-10-23T20:10:03Z",
-      "versionDescription": "Estudio con zoom, revisión sin controles, sesiones, etiquetas, comparación y copias de biblioteca. Conexión cifrada Android–iPad, grabación coordinada, transferencia al finalizar y revisión/guardado de dos ángulos. Alineación manual y controles comunes; sin garantía de cero desfase ni vista remota en directo. Actualizar ambos dispositivos. IPA sin firma: firmar con tu certificado y perfil.",
-      "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.0%2B5/acrostella-analytics-0.5.0%2B5-unsigned.ipa",
-      "size": 7756088
+      "version": "0.5.1",
+      "versionDate": "2026-10-23T20:57:34Z",
+      "versionDescription": "Emparejamiento con seis cifras: buscar la cámara en tu red, seleccionar e introducir el código del Android. Códigos temporales con autenticación mutua; IP manual si la búsqueda no funciona. Accesos con texto a Dispositivos, comparación y copias; versión instalada visible. Actualiza ambos dispositivos a 0.5.1 o posterior. Conserva revisión y guardado de ambos ángulos, dibujo y organización. IPA sin firma: firmar en Flarestore conservando el identificador. Sin vista remota en directo ni garantía de cero desfase físico.",
+      "downloadURL": "https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.5.1%2B6/acrostella-analytics-0.5.1%2B6-unsigned.ipa",
+      "size": 7877307
     }
   ],
   "news": []
