@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package": "com.acrostella.acrostella_analytics",
-  "version_code": 8,
-  "version_name": "0.6.0",
+  "version_code": 9,
+  "version_name": "0.7.0",
   "min_sdk": 24,
-  "bytes": 92799843,
-  "sha256": "4aa15cf55d58b1f08a562a4914d10092674bc91d2c0f2e1255307a1a056ab24e",
-  "apk_asset": "acrostella-analytics-0.6.0+8.apk",
-  "notes": "AcroStella 0.6.0 · Dos cámaras en directo y conexión recordada\n\nActualiza ambos dispositivos a 0.6.0: el protocolo anterior no es compatible.\n\n• El iPad muestra su propia cámara y la del Android en directo, a partes iguales. Un solo propietario de captura por cámara, compartido con la grabación MP4.\n• Toca una cámara descubierta para introducir el código directamente. Las seis cifras solo hacen falta la primera vez: los dispositivos autorizados se recuerdan en almacenamiento seguro y se reconectan al regresar.\n• Se conservan los vídeos terminados y la transferencia pendiente ante cortes; se intenta reunir los ángulos al reconectar. Se recupera también el acuse final para no bloquear el siguiente ejercicio.\n• Alineación inicial basada en el primer fotograma aceptado por el grabador nativo y timestamps del vídeo. Cursor y velocidad comunes, con corrección visual manual.\n• Estudio más limpio para móvil/tablet, controles compactos y material Liquid Glass nativo en iOS 26+; alternativa de sistema en iOS anteriores y renderizador Flutter en Android compatible.\n• La pantalla permanece despierta mientras la cámara está activa en primer plano. Sin cuentas, nube ni body tracking.\n\nEl sistema puede suspender las cámaras al abandonar o bloquear la app; la confianza se conserva, pero no se graba en segundo plano. El directo tiene latencia y no se garantiza cero desfase físico: comprueba una palmada/movimiento común. Los tests con cámaras sintéticas y la compilación no sustituyen la prueba con iPad/S24. En iOS, la IPA sigue requiriendo firma e instalación en el firmador del usuario.",
+  "bytes": 94109119,
+  "sha256": "a154156710f2d7fe7ae83379464db9da43d7e83790001eb5c64c88fe1ba4940a",
+  "apk_asset": "acrostella-analytics-0.7.0+9.apk",
+  "notes": "AcroStella Hub: acceso a Analytics, Workspace, Dispositivos, Archivos y Ajustes. La grabación continúa al cambiar de módulo; la revisión conserva su estado y se pausa al ocultarla. Importación privada de documentos, compartir con Archivos, perfiles del PC y diagnóstico con datos reales.\n\nSe mantienen captura, directo, revisión de dos ángulos, confianza y anotaciones. Corregida una carrera al cerrar el diario de recuperación de cámaras. Misma firma Android para actualizar sin desinstalar.\n\nEl motor nativo GameStream/Apollo de esta entrega es solo para iPadOS; Android conserva su papel de cámara y centro de análisis, además del Hub y gestión compartida. No incluye escritorio remoto Android, nube ni body tracking. Las pruebas automáticas no sustituyen la validación física del iPad y Android.",
   "signer_sha256": "dfbc2a66221d8b63f7d473fac2e1b80ae7b6a968c2f16f757994f97b16936d3f"
 }
