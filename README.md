@@ -2,8 +2,14 @@
 
 Instaladores Android y paquetes iOS para firma. El código fuente y los vídeos permanecen privados.
 
-- **Android:** [APK 0.6.0](https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/v0.6.0%2B8/acrostella-analytics-0.6.0%2B8.apk), también en la [última versión estable](https://github.com/tecnofifamobile-ai/AcroStella-Updates/releases/latest).
+- **Android:** [APK 0.7.0 · build 9](https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/v0.7.0%2B9/acrostella-analytics-0.7.0%2B9.apk), también en la [última versión estable](https://github.com/tecnofifamobile-ai/AcroStella-Updates/releases/latest).
 - **iPad/iPhone:** [IPA 0.6.0 sin firma](https://raw.githubusercontent.com/tecnofifamobile-ai/AcroStella-Updates/refs/tags/ios-v0.6.0%2B8/acrostella-analytics-0.6.0%2B8-unsigned.ipa). Importar y firmar en Flarestore con el certificado/perfil del usuario, conservando el identificador de su instalación. Las versiones iOS son prereleases para mantener separado el canal Android.
+
+## Android 0.7.0 — AcroStella Hub
+
+Dashboard con Analytics, Workspace, Dispositivos, Archivos y Ajustes. Conserva la grabación al navegar y el estado de revisión, importa documentos privados y mantiene las cámaras/anotaciones. Misma firma Android para actualizar. La integración GameStream nativa es inicialmente iPadOS; no se presenta como motor remoto Android.
+
+El canal público iOS permanece en 0.6.0. No se anuncia una IPA 0.7.0 hasta preparar su distribución completa. Los vídeos y certificados del usuario no se publican.
 
 ## Actualizar dentro de AcroStella
 
@@ -29,7 +35,7 @@ Ambas ofrecen únicamente 0.6.0, build 8, y mantienen sus identidades y direccio
 
 ## Dos cámaras, conexión recordada y revisión conjunta
 
-Actualizar ambos dispositivos a 0.6.0: el protocolo anterior no es compatible. Conectar el iPad y el Android a la misma Wi-Fi o al hotspot del Android y autorizar cámara/red local. En Android: **Dispositivos → Usar como segunda cámara**. En el iPad: **Buscar cámaras → tocar la cámara → Conectar y recordar** con las seis cifras. Después se recuerda la confianza y se reconecta al regresar a la app; la conexión manual por IP sigue disponible si no funciona el descubrimiento.
+Usar 0.6.0 o posterior en ambos dispositivos: el protocolo de cámaras v3 se conserva en Android 0.7.0; las versiones anteriores a 0.6.0 no son compatibles. Conectar el iPad y el Android a la misma Wi-Fi o al hotspot del Android y autorizar cámara/red local. En Android: **Dispositivos → Usar como segunda cámara**. En el iPad: **Buscar cámaras → tocar la cámara → Conectar y recordar** con las seis cifras. Después se recuerda la confianza y se reconecta al regresar a la app; la conexión manual por IP sigue disponible si no funciona el descubrimiento.
 
 El iPad muestra ambas cámaras en directo a partes iguales. **Iniciar · dos ángulos → Revisar** coordina los archivos y reúne el segundo original para revisión/guardado comunes. Los vídeos terminados, su correlación de tiempos y los acuses pendientes se conservan para recuperarlos tras cortes. La copia del Android permanece hasta eliminarla desde su biblioteca.
 
